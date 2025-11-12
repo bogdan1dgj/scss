@@ -1,0 +1,52 @@
+:root {
+  --main-color: gray;
+  --color-text: white;
+  --color-fon: coral;
+  --zagolovki: 27px;
+  --bth: black;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: var(--zagolovki);
+}
+
+header {
+  background-color: var(--color-text);
+  border-radius: 20px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+header nav li {
+  display: inline-block;
+  transform: translateY(-55%);
+  background-color: var(--color-fon);
+  padding: 14px;
+  border-radius: 20px;
+}
+header nav li:hover {
+  background-color: var(--main-color);
+}
+header nav a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--color-text);
+  padding: 10px;
+  transition: all 0.4s;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: var(--color-fon);
+}/*# sourceMappingURL=style.css.map */
